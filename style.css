@@ -4,7 +4,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  overflow: hidden;
 }
 
 nav,
@@ -90,6 +89,35 @@ a {
   height: 300px;
   width: auto;
   border-radius: 10px;
+}
+
+.courses {
+  background-color: white;
+  color: #1f2937;
+  text-align: center;
+  padding: 20px;
+}
+
+.courses h1 {
+  font-size: 36px;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.course img {
+  width: 200px;
+  height: 200px;
+  border: 2px #e5e7eb solid;
+  border-radius: 10px;
+}
+
+.course p {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 footer {
